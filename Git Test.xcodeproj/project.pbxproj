@@ -21,6 +21,7 @@
 		C01502611961D1B80037A261 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01502431961D1B80037A261 /* UIKit.framework */; };
 		C01502691961D1B80037A261 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C01502671961D1B80037A261 /* InfoPlist.strings */; };
 		C015026B1961D1B80037A261 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C015026A1961D1B80037A261 /* Git_TestTests.m */; };
+		C01502761961D7D80037A261 /* SSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C01502751961D7D80037A261 /* SSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C01502661961D1B80037A261 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		C01502681961D1B80037A261 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C015026A1961D1B80037A261 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		C01502741961D7D80037A261 /* SSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSTest.h; sourceTree = "<group>"; };
+		C01502751961D7D80037A261 /* SSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C01502331961D1B80037A261 = {
 			isa = PBXGroup;
 			children = (
+				C01502741961D7D80037A261 /* SSTest.h */,
+				C01502751961D7D80037A261 /* SSTest.m */,
 				C01502451961D1B80037A261 /* Git Test */,
 				C01502641961D1B80037A261 /* Git TestTests */,
 				C015023E1961D1B80037A261 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01502561961D1B80037A261 /* SSViewController.m in Sources */,
+				C01502761961D7D80037A261 /* SSTest.m in Sources */,
 				C01502501961D1B80037A261 /* SSAppDelegate.m in Sources */,
 				C015024C1961D1B80037A261 /* main.m in Sources */,
 			);
